@@ -1,3 +1,5 @@
+<%@ page pageEncoding="Windows-31J" language="java" contentType="text/html; charset=Windows-31J" %>
+
 <H1>ƒy[ƒW‚Ìˆê——</H1>
 
 <c:forEach var="wikiPage" items="${list}">

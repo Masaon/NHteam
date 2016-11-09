@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-public class RederServlet extends HttpServlet{
+public class ReferServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req,HttpServletResponse res)
 	throws ServletException, IOException{
 		String name = req.getParameter("name");

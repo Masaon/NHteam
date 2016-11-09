@@ -7,8 +7,8 @@ import fw.DBManager;
 import fw.ResultSetBeanMapping;
 
 public class WikiPageDAO{
-	private ResultSetBeanMapping allMapping = new ResultSetBeanMapping(){
-		public Object creareFromResultSet(ResultSet rs)throws SQLException{
+	private ResultSetBeanMapping<WikiPage> allMapping = new ResultSetBeanMapping<WikiPage>(){
+		public WikiPage creareFromResultSet(ResultSet rs)throws SQLException{
 			WikiPage page = new WikiPage();
 			page.setName(rs.getString("name"));
 			page.setContent(rs.getString("content"));
@@ -21,7 +21,7 @@ public class WikiPageDAO{
 	}
 	public List findAll() throws SQLException{
 		String sql = "SELECT * FROM wiki_page ORDER BY update_time DESC";
-		return DBManagetr.simpleFind(sql,allMapping);
+		return DBManager.simpleFind(sql,allMapping);
 	}
 	public WikiPage findByName(String name)throws SQLException{
 		String sql = "SELECT * FROM wiki_page WHERE name='"+name+"'";
@@ -35,8 +35,8 @@ public class WikiPageDAO{
 	}
 	public void insert(WikiPage page)throws SQLException{
 		String sql = "INSERT INTO wiki_page(name,content) VALUES('"
-			+page.getName()+"','"+pageContent()+"')";
-		DBManager.simpleUpgate(sql);
+			+page.getName()+"','"+page.getContent()+"')";
+		DBManager.simpleUpdate(sql);
 	}
 	public void update(WikiPage page)throws SQLException{
 		String sql = "UPDATE wiki_page SET content='"+page.getContent()

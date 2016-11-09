@@ -1,6 +1,8 @@
+<%@ page pageEncoding="Windows-31J" language="java" contentType="text/html; charset=Windows-31J" %>
+
 <H1>${param.name}の作成</h1>
 
-<FROM ACTION="create">
+<FORM ACTION="create">
 
 	<INPUT TYPE="HIDDEN" NAME="cmd" VALUE="create">
 	<INPUT TYPE="HIDDEN" NAME="name" VALUE="${param.name}">
@@ -9,7 +11,6 @@
 	
 	<BR>
 	<INPUT TYPE="SUBMIT" VALUE=" 作成 ">
-	<INPUT TYPE="BUTTON" VALUE="キャンセル"
-		   ONCLICK="location.href='refer'">
+	<INPUT TYPE="BUTTON" VALUE="キャンセル" ONCLICK="location.href='refer'">
 
 </FORM>

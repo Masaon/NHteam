@@ -1,4 +1,4 @@
-<%@page contentType="text/html; charset=Windows-31J"%>
+<%@ page pageEncoding="Windows-31J" language="java" contentType="text/html; charset=Windows-31J" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <HTML>
 <HEAD>

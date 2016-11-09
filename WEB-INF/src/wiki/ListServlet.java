@@ -12,7 +12,7 @@ public class ListServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req,HttpServletResponse res)
 	throws ServletException, IOException{
 		try{
-			List<WikiPage> list = WikiPageDAO.getInstance().findAll();
+			List<WikiPageDAO> list = WikiPageDAO.getInstance().findAll();
 			req.setAttribute("list", list);
 			req.getRequestDispatcher("/list.jsp").forward(req,res);
 		}catch(SQLException e){
