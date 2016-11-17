@@ -1,16 +1,14 @@
-<%@ page pageEncoding="Windows-31J" language="java" contentType="text/html; charset=Windows-31J" %>
+<h1>${param.name}の作成</h1>
 
-<H1>${param.name}の作成</h1>
+<form action="create">
 
-<FORM ACTION="create">
-
-	<INPUT TYPE="HIDDEN" NAME="cmd" VALUE="create">
-	<INPUT TYPE="HIDDEN" NAME="name" VALUE="${param.name}">
+	<input type="hidden" name="cmd" value="create">
+	<input type="hidden" name="name" value="${param.name}">
 	
-	<TEXTAREA ROWS="15" COLS="60" NAME="content"></TEXTAREA>
+	<textarea rows="15" cols="60" name="content"></textarea>
 	
-	<BR>
-	<INPUT TYPE="SUBMIT" VALUE=" 作成 ">
-	<INPUT TYPE="BUTTON" VALUE="キャンセル" ONCLICK="location.href='refer'">
+	<br>
+	<input type="submit" value=" 作成 ">
+	<input type="button" value="キャンセル" onclick="location.href='refer'">
 
-</FORM>
+</form>

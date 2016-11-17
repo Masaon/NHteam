@@ -1,10 +1,8 @@
-<%@ page pageEncoding="Windows-31J" language="java" contentType="text/html; charset=Windows-31J" %>
+<h1>新規作成</h1>
 
-<H1>新規作成</H1>
+<p>ページ名を入力してください。
 
-<P>ページ名を入力してください。
-
-<FORM ACTION="create2.jsp">
-	<INPUT TYPE="TEXT" NAME="name">
-	<INPUT TYPE="SUBMIT" VALUE="次へ">
-</FORM>
+<form action="create2.jsp">
+	<input type="text" name="name">
+	<input type="submit" value="次へ">
+</form>

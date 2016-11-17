@@ -10,7 +10,7 @@ public class ResultSetBeanMapping<WikiPageDAO>{
 		WikiPage wp = new WikiPage();
 		wp.setName(rs.getString("name"));
 		wp.setContent(rs.getString("content"));
-		wp.setUpdateTime(rs.getTimestamp("update_time"));
+		wp.setUpdateTime(rs.getString("update_time"));
 		return wp;
 	}
 }

@@ -1,17 +1,15 @@
-<%@ page pageEncoding="Windows-31J" language="java" contentType="text/html; charset=Windows-31J" %>
+<h1>${wikiPage.name}の編集</h1>
 
-<H1>${wikiPage.name}の編集</H1>
+<form action="update">
 
-<FORM ACTION="update">
-
-	<INPUT TYPE="HIDDEN" NAME="cmd" VALUE="update">
-	<INPUT TYPE="HIDDEN" NAME="name" VALUE="${wikiPage.name}">
+	<input type="hidden" name="cmd" value="update">
+	<input type="hidden" name="name" value="${wikiPage.name}">
 	
-	<TEXTAREA ROWS="15" COLS="60" NAME="content">${wikiPage.content}</TEXTAREA>
+	<textarea rows="15" cols="60" name="content">${wikiPage.content}</textarea>
 	
-	<BR>
-	<INPUT TYPE="SUBMIT" VALUE="   更新   ">
-	<INPUT TYPE="SUBMIT" VALUE="   削除   " ONCLICK="cmd.value='delete'">
-	<INPUT TYPE="BUTTON" VALUE="キャンセル " ONCLICK="location,href='refer'">
+	<br>
+	<input type="submit" value="   更新   ">
+	<input type="submit" value="   削除   " onclick="cmd.value='delete'">
+	<input type="button" value="キャンセル " onclick="location,href='refer'">
 	
-</FORM>
+</form>

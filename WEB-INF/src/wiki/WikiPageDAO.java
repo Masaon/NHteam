@@ -12,7 +12,7 @@ public class WikiPageDAO{
 			WikiPage page = new WikiPage();
 			page.setName(rs.getString("name"));
 			page.setContent(rs.getString("content"));
-			page.setUpdateTime(rs.getTimestamp("update_time"));
+			page.setUpdateTime(rs.getString("update_time"));
 			return page;
 		}
 	};

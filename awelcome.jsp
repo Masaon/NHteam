@@ -5,6 +5,4 @@
 Wikiは誰もが書き込めるWeb上の<br>
 コラボレーションツールらしいです。<br>
 <hr>
-<a href="index.jsp">このページを更新</a>
-
-<!-- <jsp:forward page="/refer?name=welcome" /> -->
+<a href="welcome.jsp">このページを更新</a>

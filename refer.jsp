@@ -1,9 +1,7 @@
-<%@ page pageEncoding="Windows-31J" language="java" contentType="text/html; charset=Windows-31J" %>
-
-<H1>${wikiPage.name}</H1>
+<h1>${wikiPage.name}</h1>
 
 ${wikiPage.formatedContent}
 
-<HR>
+<hr>
 
-<A HREF="update.jsp">このページを更新</A>
+<a href="update.jsp">このページを更新</a>

@@ -5,7 +5,12 @@ import java.sql.Timestamp;
 public class WikiPage{
 	private String name;
 	private String content;
-	private Timestamp updateTime;
+	private String updateTime;
+	
+	public String getFormatedContent(){
+		WikiFormater wf = new WikiFormater();
+		return wf.formatText(content);
+	}
 	
 	public String getContent(){
 		return content;
@@ -19,10 +24,10 @@ public class WikiPage{
 	public void setName(String name){
 		this.name = name;
 	}
-	public Timestamp getUpdateTime(){
+	public String getUpdateTime(){
 		return updateTime;
 	}
-	public void setUpdateTime(Timestamp updateTime){
+	public void setUpdateTime(String updateTime){
 		this.updateTime = updateTime;
 	}
 }

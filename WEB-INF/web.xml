@@ -15,7 +15,7 @@
 			<url-pattern>*.jsp</url-pattern>
 			<page-encoding>Windows-31J</page-encoding>
 			<include-prelude>/common/header.jsp</include-prelude>
-			<include-code>/common/foter.jsp</include-code>
+			<include-coda>/common/footer.jsp</include-coda>
 		</jsp-property-group>
 	</jsp-config>
 	

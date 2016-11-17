@@ -18,7 +18,7 @@ public class ReferServlet extends HttpServlet{
 				HttpSession hs = req.getSession();
 				hs.setAttribute("wikiPage", wikiPage);
 			}
-			req.getRequestDispatcher("/refer.jsp");
+			req.getRequestDispatcher("/refer.jsp").forward(req,res);
 		}catch(SQLException e){
 			throw new ServletException(e);
 		}
