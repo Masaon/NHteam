@@ -10,6 +10,7 @@ import java.sql.Statement;
 import wiki.WikiPage;
 
 public class DBManager{
+	//コネクションを取得する
 	public static Connection getConnection(){
 		
 		Connection cn = null;
@@ -22,6 +23,7 @@ public class DBManager{
 		}
 		return cn;
 	}
+	//SQL文を実行する
 	public static int simpleUpdate(String sql)throws SQLException{
 		Connection cn = null;
 		Statement st = null;
@@ -38,6 +40,7 @@ public class DBManager{
 			}
 		}
 	}
+	//記事の一覧を取得する
 	public static <WikiPageDAO> List<WikiPage> simpleFind(String sql, ResultSetBeanMapping<WikiPage> mapping)
 	throws SQLException{
 		Connection cn = null;

@@ -1,12 +1,12 @@
 package wiki;
 
 import java.sql.Timestamp;
-
+//‚Ù‚Ú‚½‚¾‚Ìbean
 public class WikiPage{
 	private String name;
 	private String content;
 	private String updateTime;
-	
+	//•s³‚È•¶š—ñ‚ğ•ÏŠ·‚µ‚Ä‘—‚è•Ô‚·
 	public String getFormatedContent(){
 		WikiFormater wf = new WikiFormater();
 		return wf.formatText(content);

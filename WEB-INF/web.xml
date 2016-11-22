@@ -58,4 +58,14 @@
 		<servlet-name>update</servlet-name>
 		<url-pattern>/update</url-pattern>
 	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>search</servlet-name>
+		<servlet-class>wiki.SearchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>search</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
 </web-app>

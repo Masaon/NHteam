@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class WikiFormater{
+	//•s³‚È•¶š—ñ‚ğ•ÏŠ·‚·‚é
 	public String formatText(String text){
 		text = escapeHtmlTags(text);
 		text = createHyperLink(text);

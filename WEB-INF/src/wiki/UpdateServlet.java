@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 public class UpdateServlet extends HttpServlet{
+	//UPDATEを行うサーブレット
 	public void doGet(HttpServletRequest req,HttpServletResponse res)
 	throws ServletException, IOException{
 		String name = req.getParameter("name");

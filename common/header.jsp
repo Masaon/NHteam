@@ -14,6 +14,11 @@
 |
 <a href="create.jsp">新規</A>
 
+<form action="search">
+	検索<input type="text" name="name">
+	<input type="submit" value="送信">
+</form>
+
 <%--メッセージ表示--%>
 <p>${message}
 

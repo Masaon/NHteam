@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class CreateServlet extends HttpServlet{
+	//記事作成用のクラス
 	public void doGet(HttpServletRequest req,HttpServletResponse res)
 	throws ServletException, IOException{
 		String name = req.getParameter("name");
