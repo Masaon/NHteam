@@ -3,6 +3,7 @@
 <p>ページ名を入力してください。
 
 <form action="create2.jsp">
-	<input type="text" name="name">
+	<input type="text" name="name" required><br>
 	<input type="submit" value="次へ">
 </form>
+<!-- -->

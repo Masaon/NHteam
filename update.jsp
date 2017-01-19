@@ -11,5 +11,5 @@
 	<input type="submit" value="   更新   ">
 	<input type="submit" value="   削除   " onclick="cmd.value='delete'">
 	<input type="button" value="キャンセル " onclick="location,href='refer'">
-	
+	<!-- -->
 </form>
