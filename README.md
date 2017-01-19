@@ -1,76 +1,76 @@
 ここにメモをしておく。
 
-・commonフォルダ
-　・header.jsp
-　　…常にヘッダーに表示されるファイル。
-　　　追加機能として、ロゴ画像を永井君が1か月かけて作ってくれました。
-　　　それと、平塚君がロゴ画像にトップページのリンクをつけて、検索機能をつけました。
-　・footer.jsp
-　　…常にフッターに表示されるファイル。
-・errorフォルダ
-　・error.jsp
-　　…予想外のエラーが発生した場合に表示されるファイル。
-　・sqlerror.jsp
-　　…SQLのエラーが発生した場合に表示されるファイル。
-・imgフォルダ
-　・logo.gif
-　　…永井君が一か月かけて作ってくれました。
-・WEB-INFフォルダ
-　・classesフォルダ
-　　…srcフォルダのファイルをコンパイルしたクラスファイルを入れているフォルダ。
-　・libフォルダ
-　　…jstlなどを使用するためのjarファイルを入れているフォルダ。
-　・srcフォルダ
-　　・ex
-　　　・AppException.java
-　　　　…アプリケーション例外
-　　　・LogicException.java
-　　　　…システム例外
-　　　・NoContentException.java
-　　　　…詳細例外
-　　・fw
-　　　・DBManager.java
-　　　　…コネクションの取得、SQL文を実行、記事一覧を取得を行う。
-　　　・EncodingFilter.java
-　　　　…Filterを使って遷移するたびにエンコードをセットする。
-　　　・ResultSetBeanMapping.java
-　　　　…受け取った結果セットからすべての値を受け取りWikiPageにセットして返す。
-　　・wiki
-　　　…サーブレット、Bean、不正文字列の訂正ロジック
-　　　　共通メソッドのファイルが入っているフォルダ。
-　　　・CreateServlet.java
-　　　　…記事作成用のクラス。
-　　　・ListServlet.java
-　　　　…記事一覧を取得するためのクラス。
-　　　・ReferServlet.java
-　　　　…記事内容を取得するクラス。
-　　　・RequestUtils.java
-　　　　…ヘッダーのメッセージを表示するためのクラス。
-　　　・SearchServlet.java
-　　　　…追加機能のクラス。実は、ListServletを利用して少し改良しただけだったり。
-　　　　　検索結果がない場合などを作るのに最初は表示されなくて少し悩みました。
-　　　・UpdateServlet.java
-　　　　…アップデートを行うクラス。
-　　　・WikiFormater.java
-　　　　…不正な文字列を変換するクラス。
-　　　・WikiPage.java
-　　　　…Bean。
-　　　・WikiPageDAO.java
-　　　　…DAO。
-　・web.xml
-　　…web.xml。
-・create.jsp
-　…記事名を記入するためのページ。
-・create2.jsp
-　…記事内容を記入するためのページ。
-・index.jsp
-　…indexという名のwelcomeという記事に送るページ。
-・list.jsp
-　…記事一覧を表示させるページ。
-・refer.jsp
-　…記事を表示させるページ。
-・search.jsp
-　…追加機能の検索結果を表示させるページ。
-　　検索機能をつけるにあたって苦労したことは、オラクルで取得した値を表示するところです。
-・update.jsp
-　…記事内容を変更、削除を行うページ
+・commonフォルダ<br>
+　・header.jsp<br>
+　　…常にヘッダーに表示されるファイル。<br>
+　　　追加機能として、ロゴ画像を永井君が1か月かけて作ってくれました。<br>
+　　　それと、平塚君がロゴ画像にトップページのリンクをつけて、検索機能をつけました。<br>
+　・footer.jsp<br>
+　　…常にフッターに表示されるファイル。<br>
+・errorフォルダ<br><br>
+　・error.jsp<br>
+　　…予想外のエラーが発生した場合に表示されるファイル。<br>
+　・sqlerror.jsp<br>
+　　…SQLのエラーが発生した場合に表示されるファイル。<br>
+・imgフォルダ<br>
+　・logo.gif<br>
+　　…永井君が一か月かけて作ってくれました。<br>
+・WEB-INFフォルダ<br>
+　・classesフォルダ<br>
+　　…srcフォルダのファイルをコンパイルしたクラスファイルを入れているフォルダ。<br>
+　・libフォルダ<br>
+　　…jstlなどを使用するためのjarファイルを入れているフォルダ。<br>
+　・srcフォルダ<br>
+　　・exフォルダ<br>
+　　　・AppException.java<br>
+　　　　…アプリケーション例外<br>
+　　　・LogicException.java<br>
+　　　　…システム例外<br>
+　　　・NoContentException.java<br>
+　　　　…詳細例外<br>
+　　・fw<br>
+　　　・DBManager.java<br>
+　　　　…コネクションの取得、SQL文を実行、記事一覧を取得を行う。<br>
+　　　・EncodingFilter.java<br>
+　　　　…Filterを使って遷移するたびにエンコードをセットする。<br>
+　　　・ResultSetBeanMapping.java<br>
+　　　　…受け取った結果セットからすべての値を受け取りWikiPageにセットして返す。<br>
+　　・wiki<br>
+　　　…サーブレット、Bean、不正文字列の訂正ロジック<br>
+　　　　共通メソッドのファイルが入っているフォルダ。<br>
+　　　・CreateServlet.java<br>
+　　　　…記事作成用のクラス。<br>
+　　　・ListServlet.java<br>
+　　　　…記事一覧を取得するためのクラス。<br>
+　　　・ReferServlet.java<br>
+　　　　…記事内容を取得するクラス。<br>
+　　　・RequestUtils.java<br>
+　　　　…ヘッダーのメッセージを表示するためのクラス。<br>
+　　　・SearchServlet.java<br>
+　　　　…追加機能のクラス。実は、ListServletを利用して少し改良しただけだったり。<br>
+　　　　　検索結果がない場合などを作るのに最初は表示されなくて少し悩みました。<br>
+　　　・UpdateServlet.java<br>
+　　　　…アップデートを行うクラス。<br>
+　　　・WikiFormater.java<br>
+　　　　…不正な文字列を変換するクラス。<br>
+　　　・WikiPage.java<br>
+　　　　…Bean。<br>
+　　　・WikiPageDAO.java<br>
+　　　　…DAO。<br>
+　・web.xml<br>
+　　…web.xml。<br>
+・create.jsp<br>
+　…記事名を記入するためのページ。<br>
+・create2.jsp<br>
+　…記事内容を記入するためのページ。<br>
+・index.jsp<br>
+　…indexという名のwelcomeという記事に送るページ。<br>
+・list.jsp<br>
+　…記事一覧を表示させるページ。<br>
+・refer.jsp<br>
+　…記事を表示させるページ。<br>
+・search.jsp<br>
+　…追加機能の検索結果を表示させるページ。<br>
+　　検索機能をつけるにあたって苦労したことは、オラクルで取得した値を表示するところです。<br>
+・update.jsp<br>
+　…記事内容を変更、削除を行うページ<br>
