@@ -17,7 +17,7 @@ public class DBManager{
 		try{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			String url = "jdbc:oracle:thin:@localhost:1521:orcl";
-			cn = DriverManager.getConnection(url, "scott", "tiger");
+			cn = DriverManager.getConnection(url, "nh", "rm");
 		}catch(Exception e){
 			e.printStackTrace();
 		}
