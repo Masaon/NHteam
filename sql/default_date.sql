@@ -1,10 +1,11 @@
-insert into wiki_page values('�R�R�i�b�c','�R�R�i�b�c�i�p��: coconut�j�̓��V�Ȃ̒P�q�t�A���A�R�R���V�̉ʎ��ł���B�R�R�i�c���邢�́A�P�ɞ��q�̎��Ƃ������B');
-insert into wiki_page values('�m���E�C���X','�m���E�C���X�iNorovirus�j�́A��׋ې��}���ݒ����������N�����E�C���X�̈ꑮ�ł���B�����҂̕��ւ�f�b���A���邢�͂���炪�����������̂���o��o������Čo����������ق��A�͐���o�R���Ē~�ς��ꂽ�L�ނ̐ېH�ɂ��H���ł̌����ɂȂ�ꍇ������B�m���E�C���X���ɂ��W�c�����͐��E�e�n�̊w�Z��{��{�݂ȂǂŎU���I�ɔ������Ă���B�uNV�v��uNoV�v�Ɨ������B');
-insert into wiki_page values(';�}�X�N','�}�X�N�i�p: mask�j�Ƃ́A�l�̂̂�����̈ꕔ�܂��͑S�̂ɔ����́A�܂��͕������̂��w���B�����܂ŕ������̂��܂߂邱�Ƃ�����B�L�`�ł͑̂̑��̕����𕢂����̂����̂悤�ɏ̂��邱�Ƃ�����B');
-insert into wiki_page values('�ԕ�','�ԕ��i���ӂ�j�Ƃ́A��q�A����̐A���̉Ԃ̗Y�A�i�����ׁj����o�镲��̍זE�B�ԕ����߂��ׂ̐�[�i�����j�ɂ����Ƃɂ��󕲂��s����B��q�A�����L�����B���s���ۂɕK�v�ƂȂ�B�傫���͐�10��m�قǂł���B��ɂ��傫���͈قȂ邪�A�����ł͂قړ����傫���ɂȂ�B');
-insert into wiki_page values('�����e�N�j�J���J���b�W','���w�Z�����e�N�j�J���J���b�W�i������񂪂������Ƃ����傤�e�N�j�J���J���b�W�j�͓����s����擌����ɂ�����w�Z�ł���B�^�c��̂͊w�Z�@�l���R�w���B');
-insert into wiki_page values('������w','������w�i�Ђ����Ȃ��̂����j�́A�����s����擌����ɂ���A�����{���q�S���iJR�����{�j�E�����s��ʋǁi�s�c�n���S�j�̉w�ł���B');
-insert into wiki_page values('�����w','�����w�i�������������j�́A�����s�V�h��㗎���񒚖ڂɂ���A�����n���S�i�������g���j�������̉w�ł���B�w�ԍ���T 02');
-insert into wiki_page values('�����','�����i�Ȃ��̂��j�́A�����s�̓��ʋ�̂ЂƂŁA23�搼���ɋ敪�����B');
-insert into wiki_page values('�����E�����ɍs��','�����E�����ɍs���i���イ�����E�����Ԃ��񂱂�����j�́A��t����t�s������̐�t�w����A�����s���c��̌䒃�m���w���o�R���ē��s�O��s�̎O��w�܂ł��e�w��ԂŌ��ԁA�����{���q�S���iJR�����{�j�̉^�]�n���̒ʏ̂ł���B��t�w - �䒃�m���w�Ԃ͑����{���́A�䒃�m���w - �O��w�Ԃ͒����{���̈ꕔ�ł���B');
-insert into wiki_page values('�����s','�����s�i���ɂ������j�́A�����s�̑����n��ɂ���s�ł���B');
+insert into wiki_page values('ココナッツ','ココナッツ（英語: coconut）はヤシ科の単子葉植物、ココヤシの果実である。ココナツあるいは、単に椰子の実ともいう。');
+insert into wiki_page values('ノロウイルス','ノロウイルス（Norovirus）は、非細菌性急性胃腸炎を引き起こすウイルスの一属である。感染者の糞便や吐瀉物、あるいはそれらが乾燥したものから出る塵埃を介して経口感染するほか、河川を経由して蓄積された貝類の摂食による食中毒の原因になる場合もある。ノロウイルス属による集団感染は世界各地の学校や養護施設などで散発的に発生している。「NV」や「NoV」と略される。');
+insert into wiki_page values(';マスク','マスク（英: mask）とは、人体のうち顔の一部または全体に被るもの、または覆うものを指す。頭部まで覆うものを含めることもある。広義では体の他の部分を覆うものもそのように称することがある。');
+insert into wiki_page values('花粉','花粉（かふん）とは、種子植物門の植物の花の雄蘂（おしべ）から出る粉状の細胞。花粉がめしべの先端（柱頭）につくことにより受粉が行われる。種子植物が有性生殖を行う際に必要となる。大きさは数10μmほどである。種により大きさは異なるが、同一種ではほぼ同じ大きさになる。');
+insert into wiki_page values('東京テクニカルカレッジ','専門学校東京テクニカルカレッジ（せんもんがっこうとうきょうテクニカルカレッジ）は東京都中野区東中野にある専門学校である。運営主体は学校法人小山学園。');
+insert into wiki_page values('東中野駅','東中野駅（ひがしなかのえき）は、東京都中野区東中野にある、東日本旅客鉄道（JR東日本）・東京都交通局（都営地下鉄）の駅である。');
+insert into wiki_page values('落合駅','落合駅（おちあいえき）は、東京都新宿区上落合二丁目にある、東京地下鉄（東京メトロ）東西線の駅である。駅番号はT 02');
+insert into wiki_page values('中野区','中野区（なかのく）は、東京都の特別区のひとつで、23区西部に区分される。');
+insert into wiki_page values('中央・総武緩行線','中央・総武緩行線（ちゅうおう・そうぶかんこうせん）は、千葉県千葉市中央区の千葉駅から、東京都千代田区の御茶ノ水駅を経由して同都三鷹市の三鷹駅までを各駅停車で結ぶ、東日本旅客鉄道（JR東日本）の運転系統の通称である。千葉駅 - 御茶ノ水駅間は総武本線の、御茶ノ水駅 - 三鷹駅間は中央本線の一部である。');
+insert into wiki_page values('国立市','国立市（くにたちし）は、東京都の多摩地域にある市である。');
+insert into wiki_page values('welcome','最初のページです')
