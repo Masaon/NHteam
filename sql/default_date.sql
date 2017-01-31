@@ -8,4 +8,4 @@ insert into wiki_page values('落合駅','落合駅（おちあいえき）は�
 insert into wiki_page values('中野区','中野区（なかのく）は、東京都の特別区のひとつで、23区西部に区分される。');
 insert into wiki_page values('中央・総武緩行線','中央・総武緩行線（ちゅうおう・そうぶかんこうせん）は、千葉県千葉市中央区の千葉駅から、東京都千代田区の御茶ノ水駅を経由して同都三鷹市の三鷹駅までを各駅停車で結ぶ、東日本旅客鉄道（JR東日本）の運転系統の通称である。千葉駅 - 御茶ノ水駅間は総武本線の、御茶ノ水駅 - 三鷹駅間は中央本線の一部である。');
 insert into wiki_page values('国立市','国立市（くにたちし）は、東京都の多摩地域にある市である。');
-insert into wiki_page values('welcome','最初のページです')
+insert into wiki_page values('welcome','最初のページです');
