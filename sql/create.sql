@@ -6,6 +6,7 @@ create user nh identified by rm;
 grant create table to nh;
 grant create user to nh;
 grant create view to nh;
+grant create session to nh;
 
 
 drop table wiki_page;
