@@ -24,6 +24,14 @@ nhteamフォルダ内のnhteam.xmlファイルをc:\Tomcat7\conf\Catalina\localh
 ・imgフォルダ<br>
 　・logo.gif<br>
 　　…永井君が一か月かけて作ってくれました。<br>
+・sqlフォルダ<br>
+  ・create.sql<br>
+    …新しいユーザーを作成するファイル。<br>
+  ・default_date.sql<br>
+    …デフォルトの記事一覧を作成するファイル。<br>
+・styleフォルダ<br>
+  ・style.css<br>
+    …永井君が3週間かけて作ってくれました。<br>
 ・WEB-INFフォルダ<br>
 　・classesフォルダ<br>
 　　…srcフォルダのファイルをコンパイルしたクラスファイルを入れているフォルダ。<br>
