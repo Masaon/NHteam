@@ -1,12 +1,12 @@
 ここにメモをしておく。<br><br>
 データベースの設置の説明<br>
-まず、sqlplusを起動する。＊このNHteamフォルダはcドライブ直下にあるものとする。<br>
-次に、sqlplusに「@c:\NHteam\sql\create.sql」と入力する。<br>
-最後に、sqlplusに「@c:\NHteam\sql\default_date.sql」と入力する。<br>
+まず、sqlplusを起動する。＊このnhteamフォルダはcドライブ直下にあるものとする。<br>
+次に、sqlplusに「@c:\nhteam\sql\create.sql」と入力する。<br>
+最後に、sqlplusに「@c:\nhteam\sql\default_date.sql」と入力する。<br>
 これでデータベースの設置は終了です。<br>
 <br>
 tomcatの設置の説明<br>
-NHteamフォルダ内のNHteam.xmlファイルをc:\Tomcat7\conf\Catalina\localhost内に設置する。<br>
+nhteamフォルダ内のnhteam.xmlファイルをc:\Tomcat7\conf\Catalina\localhost内に設置する。<br>
 これでtomcatの設置は終了です。<br>
 <br>
 ・commonフォルダ<br>
