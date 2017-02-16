@@ -12,4 +12,6 @@ grant dba to nh;
 conn nh /rm;
 
 drop table wiki_page;
-create table wiki_page(name varchar2(100) primary key,content varchar2(2000),update_time varchar2(100) default sysdate);
+
+create table wiki_page(name varchar2(100) primary key,content varchar2(3000),update_time varchar2(100) default sysdate);
+commit;
